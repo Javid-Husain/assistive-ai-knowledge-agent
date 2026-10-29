@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# Local documents and generated results
+data/documents/*
+!data/documents/.gitkeep
+results/*
+!results/.gitkeep
+
+# Testing and tooling
+.pytest_cache/
+.coverage
+htmlcov/
+.vscode/
